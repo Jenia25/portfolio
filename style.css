@@ -96,7 +96,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: crimson;
     font-size: 35px;
     font-weight: 600;
 }
@@ -105,6 +105,9 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
+    color: #fff;
+}
+.navbar.sticky .logo a{
     color: #fff;
 }
 .navbar .menu li{
@@ -165,7 +168,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/bannerm.jpg") no-repeat center;
+    background: url("bannerm.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -677,4 +680,5 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+
 }
